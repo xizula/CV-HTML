@@ -1,0 +1,51 @@
+
+
+body {
+    display: flex;  
+    width: 1200px;
+    margin: 20px auto;
+    box-shadow: 20px 10px 40px grey;
+    background-color: rgb(224, 251, 255);
+}
+
+header {
+    width: 35%;
+    background-color: rgb(219, 228, 233);
+    text-align: center;
+    border: 1px solid rgb(42, 61, 78);
+}
+
+main {
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+}
+
+header, main {
+    padding: 5px 15px;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px grey;
+}
+header ul {
+    list-style: none;
+}
+
+.add {
+    text-align: left;
+}
+
+.add img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+.add li {
+    margin-bottom: 10px;
+}
