@@ -2,17 +2,18 @@
 
 body {
     display: flex;  
-    width: 1200px;
+    width: 1300px;
     margin: 20px auto;
     box-shadow: 20px 10px 40px grey;
     background-color: rgb(224, 251, 255);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 header {
     width: 35%;
-    background-color: rgb(219, 228, 233);
+    background-color: rgb(218, 232, 240);
+    background-image: linear-gradient(to bottom, rgb(127, 143, 150), rgb(238, 237, 237));
     text-align: center;
-    border: 1px solid rgb(42, 61, 78);
 }
 
 main {
@@ -27,18 +28,21 @@ header, main {
     width: 200px;
     height: 200px;
     border-radius: 200px;
-    margin-top: 10px;
+    margin-top: 20px;
     box-shadow: 0 0 20px grey;
 }
-header ul {
+address ul {
     list-style: none;
 }
 
-.add {
+address {
     text-align: left;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
 }
 
-.add img {
+address img {
     width: 25px;
     height: 25px;
     vertical-align: middle;
@@ -48,4 +52,15 @@ header ul {
 }
 .add li {
     margin-bottom: 10px;
+}
+
+.shorts {
+    text-align: left;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2px;
+    margin-top: 20px;
+}
+.shorts h2 {
+    text-align: center;
 }
