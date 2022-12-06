@@ -2,7 +2,7 @@
 
 body {
     display: flex;  
-    width: 1300px;
+    width: 1100px;
     margin: 20px auto;
     box-shadow: 20px 10px 40px grey;
     background-color: rgb(224, 251, 255);
@@ -10,14 +10,14 @@ body {
 }
 
 header {
-    width: 35%;
+    width: 40%;
     background-color: rgb(218, 232, 240);
-    background-image: linear-gradient(to bottom, rgb(127, 143, 150), rgb(238, 237, 237));
+    background-image: linear-gradient(to bottom, rgb(94, 117, 247), rgb(238, 237, 237));
     text-align: center;
 }
 
 main {
-    width: 65%;
+    width: 60%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -63,4 +63,20 @@ address img {
 }
 .shorts h2 {
     text-align: center;
+}
+
+main h1 {
+    text-align: center;
+}
+main p {
+    padding: 0 30px;
+    text-align: justify;
+}
+main span {
+    display: block;
+    padding: 0 30px;
+    text-align: justify;
+}
+main section {
+    padding: 10px 0;
 }
