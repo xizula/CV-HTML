@@ -2,7 +2,7 @@
 
 body {
     display: flex;  
-    width: 1100px;
+    width: 1200px;
     margin: 20px auto;
     box-shadow: 20px 10px 40px grey;
     background-color: rgb(224, 251, 255);
@@ -65,18 +65,38 @@ address li {
     text-align: center;
 }
 
+.shorts ul {
+    padding-left: 60px;
+}
+
+.shorts li {
+    font-size: 17px;
+}
+
 main h1 {
     text-align: center;
 }
 main p {
     padding: 0 30px;
     text-align: justify;
+    font-size: 18px;
 }
 main span {
     display: block;
     padding: 0 30px;
     text-align: justify;
+    font-size: 18px;
 }
 main section {
     padding: 10px 0;
 }
+
+main section h1 {
+    background-image: linear-gradient(90deg,  white,  rgb(149, 164, 248), white)
+}
+
+.projects {
+    display: block;
+    margin-bottom: 50px;
+}
+
