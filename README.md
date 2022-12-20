@@ -1,2 +1,11 @@
 # Majchrowska Izabela CV
-Prosta strona internetowa przedstawiająca CV napisane za pomocą HTML i CSS
+Simple website containing CV writen using HTML and CSS.
+
+- English version of the CV can be found at this address:
+
+    https://izabelamajchrowskacv-eng.netlify.app
+
+- Polish version of the CV can be found at this address:
+
+    https://izabelamajchrowskacv-pl.netlify.app
+
